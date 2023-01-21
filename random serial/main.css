@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.serial {
+  width: 250px;
+  background-color: aquamarine;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 20px auto 0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  height: 67.2px;
+}
+.generate {
+  background-color: rgb(16, 122, 122);
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+.generate:hover {
+  background-color: rgb(14, 105, 105);
+}
